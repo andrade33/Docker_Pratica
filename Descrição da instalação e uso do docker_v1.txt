@@ -45,4 +45,22 @@ Por fim, a remoção do docker
 docker rm mysql-server
 
 ============================================
+
+DOCKERFILE
+FROM mysql:5.7
+# Adicionando os scripts SQL para serem executados na criação do banco
+COPY ./db/ /docker-entrypoint-initdb.d/
+============================================
+CRIANDO O DB
+$ sudo docker build -t mydb-db .
+============================================
+SCRIPT DE CRRIAÇÃO DAS TABELAS:
+não publicar
+============================================
+Docker ps: 
+Id do conteiner removida
+============================================
+
+
+
                                                            
