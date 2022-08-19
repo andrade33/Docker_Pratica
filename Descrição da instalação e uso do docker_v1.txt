@@ -1,8 +1,6 @@
 ============================================
 CONSIDERAÇÕES GERAIS SOBRE A ATIVIDADE: 
-
 Pra essa atividade foi usado o Kali como máquina virtual, porém de forma local. Não foi possível fazer na AWS.
-
 Pra simular o acesso remoto, foi usado o Putty, fazendo uso do protocolo SSH.
 
 ============================================
